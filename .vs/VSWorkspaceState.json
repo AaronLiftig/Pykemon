@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data",
+    "\\jupyter"
   ],
-  "SelectedNode": "\\pokemon.py",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }

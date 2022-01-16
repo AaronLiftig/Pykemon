@@ -1,15 +1,16 @@
 import random as rand
+import requests
 
-class pokemon: 
-    def __init__(self, series):
+class Pokemon: 
+    def __init__(self, series, level = 50, moves = None, item = None):
         self.series = series
+
+        self.level = level
 
         self.max_hp = None
         self.current_hp = self.max_hp
 
         self.moves_learned = None
-
-        self.level = None
 
         self.attack = None
         self.defense = None
@@ -20,6 +21,7 @@ class pokemon:
 
         self.nature = None
         self.ability = None
+
         self.item = None
 
         self.exp_points = None
@@ -28,10 +30,8 @@ class pokemon:
         self.evasion = None
         self.accuracy = None
 
-        self.sprite = series.loc['image_url']
-        
     def __repr__(self):
-        return self.sprite
-    
+        pass
+
     def make_move(self):
         pass
